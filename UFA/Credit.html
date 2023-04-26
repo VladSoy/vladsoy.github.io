@@ -1,0 +1,79 @@
+<HTML>
+<HEAD> <TITLE> Кредит </TITLE> 
+<META HTTP-EQUIV="Content-Type"Content="text/html Charset= utf-8 ">
+<META Name="keywords" СоП;еП="Кредит, Займ, Банк, Паспорт, Деньги">
+<META Name="description" Content="Форма для оформления кредита">
+<link rel="stylesheet" type="text/css" href="style2.css">
+</HEAD>
+<BODY>
+<div id="conteiner">
+<p align=left>
+
+<form name="talk" action="request.php" method="post">
+	<div id="header">
+	<hr> 
+	<center >Заполните данные для рассчета кредита </center>
+	<hr>
+	</div>
+<div id="sidebar">
+<input type="Reset" name="Reset_button" value="Очистить форму">
+</div>
+<div id="content2">
+Ваше ФИО:<br>
+<input type="text" name="Lastname" sixe="40"><br>
+<input type="text" name="name" sixe="40"><br>
+<input type="text" name="Firstname" sixe="40">
+<br>
+Ваша дата рождения:
+<input type="text" name="Birthday" sixe="40">
+<br>
+Паспортные данные:
+<input type="text" name="Passport" sixe="40">
+<br>
+Адрес постоянного проживания:
+<input type="text" name="address" sixe="40">
+<br>
+</div>
+
+<div id="content"><br>
+
+Обслуживающий сотрудник:
+<select name="employeer">
+<option selected> Петров П.П. </option>
+<option> Молотов М.М. </option>
+<option> Иванов И.И. </option>
+<option> Семенов С.С. </option>
+<option> Вадимов В.В </option>
+</select>
+<br>
+Вид кредита:
+<select name="type">
+<option selected> Потребительский </option>
+<option> Ипотечный </option>
+<option> Автокредит </option>
+</select>
+<br>
+Выберите филиал банка <br>
+Уфимский филиал<input type="checkbox" name="mark" value="check" checked><br>
+Салаватский филиал<input type="checkbox" name="mark" value="check"><br>
+Кармаскалинский филиал<input type="checkbox" name="mark" value="check"><br>
+Давлекановский филиал<input type="checkbox" name="mark" value="check"><br>
+
+Сумма кредита:
+<input type="text" name="Summ" sixe="40">
+<br>
+
+<br>
+<input type="submit" name="OK_button" value="Послать запрос"><br>
+</div>
+<div id="content3">
+<br>
+Примечание <br>
+*не является публичной афертой
+<br>
+
+</div>
+</form></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<HTML>
+<HEAD><TITLE>Страница</TITLE>
+<link rel="stylesheet" type="text/css" href="style.css">
+</HEAD>
+<BODY>
+
+
+
+
+<div id="container">
+	<div id="header">
+	<img src="Logo.jpg" WIDTH="150" ALIGN="left">
+	<br><h1>Город Уфа</h1>
+	</div>
+		 
+	<div id="navigation">
+	<h2>Администрация Уфы</h2>
+	</div>
+		 
+	<div id="sidebar">
+	
+<ul type="circle">
+	<li ALIGN="left"><a href="MainPage.htm"> Главная </a></li>
+	<li ALIGN="left"><a href="Dost.htm"> Достоприме-<br>чательности </a></li>
+	<li ALIGN="left"><a href="Walk.htm"> Куда сходить? </a></li>
+	<li ALIGN="left"><a href="His.htm"> История </a></li>
+	
+</ul>
+
+	</div>
+		 
+	<div id="content">
+	<h2>Osnova</h2>
+	</div>
+		 
+	<div id="clear">
+		 
+	</div>
+							   
+	<div id="footer">
+	<p>Создатель Яковлев Владислав БПИ-20-02
+	</div>
+</div>
+
+
+</BODY>
+</HTML>
